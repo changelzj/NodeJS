@@ -18,6 +18,8 @@
 
 // 引入文件模块
 var model = require("./model");
+var hello = require("./helloModel");
+var math = require("math");
 
 // 引入核心模块
 var fs = require("fs");
@@ -40,8 +42,11 @@ console.log(model.mut(3,5));
 console.log(arguments);
 
 // 获取当前执行函数的信息，并转换为字符串
-console.log(arguments.callee + '');
+var contents = arguments.callee + '';
 
 console.log(global.a);
 
+hello.fn();
 
+
+math.add(4, 5);
