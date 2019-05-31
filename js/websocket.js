@@ -15,6 +15,6 @@ ws.on('message', function (message) {
 });
 
 ws.on('close', function (ws) {
-    global.gc();
+
 });
 
