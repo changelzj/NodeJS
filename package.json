@@ -2,7 +2,7 @@
   "name": "js",
   "version": "1.0.0",
   "dependencies": {
-    "math": "0.0.3",
-    "ws": "^7.0.0"
+    "math": "^0.0.3",
+    "ws": "^7.0.1"
   }
 }
